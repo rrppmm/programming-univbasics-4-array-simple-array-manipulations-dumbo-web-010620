@@ -23,7 +23,7 @@ def shift_with_args(array)
 end
 
 def using_concat(array1, array2)
-  array1 = []
+  @my_favorite_things.length = []
   array2 = ["raindrops on roses", "whiskers on kittens", "sports cars", "flatiron school"]
   array1.concat(array1, array2)
 end
